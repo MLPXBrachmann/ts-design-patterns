@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-config-airbnb",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "array-type": [true, "array"],
+    "import-name": [false],
+    "no-bitwise": false,
+    "no-conditional-assignment": false,
+    "no-console": false,
+    "no-empty-interface": { "severity": "warning" },
+    "no-implicit-dependencies": [true, "dev"],
+    "no-increment-decrement": false,
+    "no-submodule-imports": false,
+    "no-var-requires": false,
+    "object-shorthand-properties-first": false,
+    "ter-arrow-parens": [true, "always"]
+  }
+}
